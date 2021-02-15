@@ -51,6 +51,7 @@ export async function getStaticProps(context) {
 }
 
 export async function getStaticPaths() {
+  
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/articles`);
   const data = await res.json();
 
