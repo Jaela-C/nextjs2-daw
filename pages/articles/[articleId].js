@@ -11,7 +11,6 @@ const ArticleDetails = ({ article }) => {
       <div>{article.user_data.name}</div>
       <p>{article.body}</p>
 
-      <Comments articleId={article.id} />
     </div>
   );
 };
