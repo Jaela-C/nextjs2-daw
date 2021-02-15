@@ -3,7 +3,7 @@ import React from 'react';
 const ArticleDetails = ( {article} ) => {
     return (
         <div>
-            {article.error}
+            {article.title}
         </div>
     );
 };
