@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Navigation from '../src/components/Navigation'
+import Navigation from '../components/Navigation'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
