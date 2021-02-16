@@ -1,4 +1,4 @@
-import React from 'react';
+import Comments from "../../components/Comments";
 
 const ArticleDetails = ({ article }) => {
   if (!article) {
@@ -8,9 +8,10 @@ const ArticleDetails = ({ article }) => {
   return (
     <div>
       <h1>{article.title}</h1>
-      <div>{article.user_data.name}</div>
+      
       <p>{article.body}</p>
 
+      <Comments articleId={article.id} />
     </div>
   );
 };
